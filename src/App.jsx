@@ -5,8 +5,13 @@ function App() {
 
   return (
     <div className="flex">
-      <Sidebar />
-      <Page />
+      <div className='sticky top-0 bg-gray-300 w-[25%] h-screen'>
+        <Sidebar />
+      </div>
+      <div className="w-[75%]">
+        <Page />
+      </div>
+      
     </div>
   )
 }

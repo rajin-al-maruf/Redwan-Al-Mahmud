@@ -2,14 +2,14 @@ import React, { useState } from 'react'
 import profilePic from '../assets/profilePic.png'
 const Sidebar = () => {
   return (
-    <div className='bg-gray-200 w-[25%] h-screen'>
+    <div>
         <div className='flex flex-col items-center py-16'>
             <div className='flex flex-col items-center'>
                 <img className='rounded-full w-52' src={profilePic} alt="profile pic" />
 
                 <div className='flex flex-col items-center mt-10'>
                     <h1 className='text-2xl font-semibold'>Redwan Al Mahmud</h1>
-                    <h2 className='text-base mt-2 text-cyan-500 tracking-wide'>RESEARCH ASSISTENT</h2>
+                    <h2 className='text-base mt-2 text-cyan-500 tracking-wide'>RESEARCH ASSISTANT</h2>
                 </div>
             </div>
 
