@@ -1,10 +1,13 @@
+import Sidebar from "./components/Sidebar"
+import Page from "./Page/Page"
 
 function App() {
 
   return (
-    <>
-      <h1 className="text-gray-800">Project initialized. Ready to push on github.</h1>
-    </>
+    <div className="flex">
+      <Sidebar />
+      <Page />
+    </div>
   )
 }
 
